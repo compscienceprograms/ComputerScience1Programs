@@ -28,8 +28,10 @@ of 1 through 4 when selecting an item from the menu. Do not accept negative valu
 for the circle’s radius, the rectangle’s length or width, or the triangle’s base or height.
 --
 
-There are four other files in this repository. If you just want to see the code and...well...
-..*cough cough copy and paste cough cough* (students), then that is the program you will want.
-However, if you want the raw file, go to 'GeometryCalculator.cpg' and click RAW for the file.
-The other two files are just LAYOUT and DEPEND files which you will probably not need. If you
-have any problems, please feel free to let me know. :)
+There are four other files in this repository. I have put letters in front to make it easier
+for you to look at. Just ignore them and read the file name and you should be fine. If you 
+ust want to see the code and...well.....*cough cough copy and paste cough cough* (students), 
+then that is the program you will want. However, if you want the raw file, go to 
+'GeometryCalculator.cpg' and click RAW for the file. The other two files are just LAYOUT and
+DEPEND files which you will probably not need. If you have any problems, please feel free to 
+let me know. :)
