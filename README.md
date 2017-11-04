@@ -31,6 +31,6 @@ for the circle’s radius, the rectangle’s length or width, or the triangle’
 There are four other files in this repository. If you just want to see the code and......
 well.....*cough cough copy and paste cough cough* (students), then you will want the 
 'Reference' program to look at. However, if you want the raw file, go to 
-'GeometryCalculator.cpg' and click RAW for the file. The other two files are just LAYOUT and
+'GeometryCalculator.cbp' and click RAW for the file. The other two files are just LAYOUT and
 DEPEND files which you will probably not need. If you have any problems, please feel free to 
 let me know. :)
