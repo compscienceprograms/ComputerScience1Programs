@@ -2,6 +2,7 @@
 This is Program #23 from page 225 on ch. 4 Making Decisions.
 This is the exact question so you can verify this is the right program you are looking for:
 --
+
 Write a program that displays the following menu:
 Geometry Calculator
 1. Calculate the Area of a Circle
@@ -25,6 +26,9 @@ Input Validation: Display an error message if the user enters a number outside t
 of 1 through 4 when selecting an item from the menu. Do not accept negative values
 for the circle’s radius, the rectangle’s length or width, or the triangle’s base or height.
 --
-Please keep in mind the program is written in Code::Blocks, an open-source IDE platform.
---
-I also hope that you know this is a C++ program....yeah....anyways enjoy the program.
+
+I have also attatched four different file types of the code itself if you want them.
+1. Code::Blocks
+2. DEPEND
+3. C++ Source file
+4. LAYOUT
