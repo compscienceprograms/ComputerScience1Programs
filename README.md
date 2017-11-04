@@ -9,6 +9,7 @@ Geometry Calculator
 2. Calculate the Area of a Rectangle
 3. Calculate the Area of a Triangle
 4. Quit
+
 Enter your choice (1-4):
 If the user enters 1, the program should ask for the radius of the circle and then display
 its area. Use the following formula:
