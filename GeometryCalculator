@@ -1,0 +1,137 @@
+                    **C++ CODE**
+-----------------------------------------------------
+This is the code that I wrote for Program #23 on page
+225 of Chapter 4 'Making Decisions'. If I were you, 
+please open the README file to see more details. Here
+is the question itself though so if came here from 
+Google, this is why...lol.
+-----------------------------------------------------
+Write a program that displays the following menu:
+Geometry Calculator
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Quit
+Enter your choice (1-4):
+If the user enters 1, the program should ask for the radius of the circle and then display
+its area. Use the following formula:
+area  π r
+2
+Use 3.14159 for π and the radius of the circle for r. If the user enters 2, the program
+should ask for the length and width of the rectangle and then display the rectangle’s
+area. Use the following formula:
+area = length * width
+If the user enters 3 the program should ask for the length of the triangle’s base and its
+height, and then display its area. Use the following formula:
+area = base * height * .5
+If the user enters 4, the program should end.
+Input Validation: Display an error message if the user enters a number outside the range
+of 1 through 4 when selecting an item from the menu. Do not accept negative values
+for the circle’s radius, the rectangle’s length or width, or the triangle’s base or height.
+-----------------------------------------------------
+Anyways, here's the code below....and I'm gonna say
+this again just to make sure you understand: Open the
+README file for more details. But....yeah. Hope this
+helps you with your code! :)
+-----------------------------------------------------
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main()
+{
+ int choice;
+ double area, radius, length, width, base, height;
+
+ const double PI = 3.14159;
+
+ const int CIRCLE_CHOICE = 1,
+ RECTANGLE_CHOICE = 2,
+ TRIANGLE_CHOICE = 3,
+ QUIT_CHOICE = 4;
+
+ //display the menu and get a choice
+  cout<< "\t2Geometry Calculator\n"
+  <<"------------------------------------\n"
+  << "\t1. Area of Circle \n"
+  << "\t2. Area of Rectangle \n"
+  << "\t3. Area of Triangle \n"
+  << "\t4. Quit \n"
+  << "\nEnter your selection (1-4): \n\n";
+ cin >> choice;
+
+ cout << fixed << setprecision(2);
+
+ switch(choice)
+    {
+        case CIRCLE_CHOICE:
+        cout << "Enter the radius of the circle: ";
+        cin >> radius;
+    if(radius < 0)
+        {
+            cout << "Radius cannot be negative!! \n\n"
+                << "Enter radius again: \n";
+            cin >> radius;
+        }
+    area = PI * radius * radius;
+    cout << "The circle's area is = " << area << " square units \n\n";
+    break;
+
+    case RECTANGLE_CHOICE:
+    cout << "Enter the length of the rectangle: ";
+    cin >> length;
+    if(length < 0)
+        {
+            cout<< "Length cannot be less than 0!! \n\n"
+                << "Enter length again: \n";
+            cin >> length;
+        }
+    cout << "Enter the width of the rectangle: ";
+    cin >> width;
+    if(width < 0)
+        {
+            cout<< "Width cannot be less than 0!! \n\n"
+                << "Enter width again: \n";
+            cin >> width;
+        }
+
+    area = length * width;
+    cout << "The rectangle's area is = " << area << " square units \n\n";
+    break;
+
+    case TRIANGLE_CHOICE:
+    cout << "Enter the base of the triangle: ";
+    cin >> base;
+    if(base < 0)
+        {
+            cout << "Base cannot be less than 0!! \n\n"
+                << "Enter base again: \n";
+            cin >> base;
+        }
+    cout << "Enter the height of the triangle: ";
+    cin >> height;
+    if(height < 0)
+        {
+            cout << "Height cannot be less than 0!! \n\n"
+                << "Enter height again: \n";
+            cin >> height;
+        }
+
+    area = base * height * 0.5;
+    cout << "The triangle's area is = " << area << " square units \n\n";
+    break;
+
+    case QUIT_CHOICE:
+    cout << "\nThe program is ending...\n\n";
+    break;
+
+    default:
+    cout << "The valid choices are 1-4 \n\n"
+    << "Run the program again \n\n";
+
+    }
+
+ return 0;
+
+}
