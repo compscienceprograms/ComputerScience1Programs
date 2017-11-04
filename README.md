@@ -27,8 +27,6 @@ of 1 through 4 when selecting an item from the menu. Do not accept negative valu
 for the circle’s radius, the rectangle’s length or width, or the triangle’s base or height.
 --
 
-I have also attatched four different file types of the code itself if you want them.
-1. Code::Blocks
-2. DEPEND
-3. C++ Source file
-4. LAYOUT
+There are four other files in this repository. If you just want to see the code and...well...
+..*cough cough copy and paste cough cough* (students), then that is the program you will want.
+However, if you want the raw file, go to 'GeometryCalculator.cpg' and click RAW for the file.
