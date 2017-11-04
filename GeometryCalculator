@@ -29,6 +29,10 @@ Input Validation: Display an error message if the user enters a number outside t
 of 1 through 4 when selecting an item from the menu. Do not accept negative values
 for the circle’s radius, the rectangle’s length or width, or the triangle’s base or height.
 -----------------------------------------------------
+**PLEASE KEEP IN MIND THAT THE CODE BELOW IS FOR
+REFERENCE PURPOSES!! IF YOU WANT THE RAW FILE THEN
+GO TO ONE OF THE OTHER FILES!!**
+-----------------------------------------------------
 Anyways, here's the code below....and I'm gonna say
 this again just to make sure you understand: Open the
 README file for more details. But....yeah. Hope this
